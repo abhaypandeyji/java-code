@@ -6,5 +6,6 @@ class HashSetBasics{
             hs.add(i);
         }
         System.out.println(hs);
+        System.out.println("jai shree krishna");
     }
 }
