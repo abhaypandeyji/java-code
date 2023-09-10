@@ -6,7 +6,7 @@ public class BubbleSort{
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));        
     }
-    public static void bubbleSortSort(int[] arr){
+    public static void bubbleSort(int[] arr){
         int n = arr.length;
         for(int i = 0;i<n-1;i++){
             for(int j = 0;j<n-1-i;j++){
