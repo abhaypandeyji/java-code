@@ -3,6 +3,7 @@ import java.util.ArrayList;
 
 public class Searching{
     public static void main(String[] args) {
+        ZClear.cls();
         int[] arr = {1,2,3,21,21,4,35,21,20,43,14,17};
         int target = 21;
         System.out.println(search(arr, target,0));

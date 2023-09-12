@@ -4,7 +4,7 @@ import java.util.Arrays;
 //2. move even no to the end
 //3. move odd no to the end 
 
-public class MoveAllZeroToTheEnd{
+public class MoveAllZerosToTheEnd{
     public static void main(String[] args) {
         int[] arr = {1, 5, 0, 4, 0, 3, 1, 0, 4};
         System.out.println(Arrays.toString(moveAllZerosToEnd(arr)));
