@@ -5,8 +5,6 @@ public class SearchInSortedAndRotated {
         ZClear.cls();
         int[] arr = {5, 6, 7, 8, 9, 1, 2, 3};
         System.out.println(searchInSortedAndRotated(arr, 9));
-
-
     }
     public static int searchInSortedAndRotated(int[] arr, int target){
         int l = 0;
