@@ -1,4 +1,4 @@
-package Searching.ClassQuestion;
+//package Searching.ClassQuestion;
 
 public class SearchInSortedAndRotated {
     public static void main(String[] args) {
