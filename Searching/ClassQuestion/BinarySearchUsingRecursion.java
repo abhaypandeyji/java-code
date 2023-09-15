@@ -1,7 +1,7 @@
 public class BinarySearchUsingRecursion{
     public static void main(String[] args) {
         // ZClear.cls();
-        int[] arr = {1,2,4,7,8,12,13,14,12,34,56,78};
+        int[] arr = {1,2,4,7,8,12,13,14,34,56,78};
         int target = 13;
         int res = search(arr, target, 0, arr.length-1);
         System.out.println(res);
@@ -21,7 +21,6 @@ public class BinarySearchUsingRecursion{
         else{
             return search(arr, target, mid + 1, e);
         }
-        
         
     }
 }

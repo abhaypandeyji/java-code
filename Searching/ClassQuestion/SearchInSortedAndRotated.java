@@ -2,7 +2,7 @@
 
 public class SearchInSortedAndRotated {
     public static void main(String[] args) {
-        ZClear.cls();
+        // ZClear.cls();
         int[] arr = {5, 6, 7, 8, 9, 1, 2, 3};
         System.out.println(searchInSortedAndRotated(arr, 9));
     }
