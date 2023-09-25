@@ -2,18 +2,20 @@ import java.util.Scanner;
 class Stack   
 {  
     int top;   
-    int maxsize = 10;  
-    int[] arr = new int[maxsize];  
+    int maxsize;  
+    int[] arr;  
       
-      
+    Stack(int max)  
+    {   
+        top = -1;  
+        arr = new int[max];
+    } 
+
     boolean isEmpty()  
     {  
         return (top < 0);  
     }  
-    Stack()  
-    {  
-        top = -1;  
-    }  
+     
     boolean push (Scanner sc)  
     {  
         if(top == maxsize-1)  
@@ -58,7 +60,7 @@ public class Stack_Operations {
 public static void main(String[] args) {  
     int choice=0;  
     Scanner sc = new Scanner(System.in);  
-    Stack s = new Stack();  
+    Stack s = new Stack(10);  
     System.out.println("Stack operations using array\n");  
     System.out.println("\n------------------------------------------------\n");  
     while(choice != 4)  
